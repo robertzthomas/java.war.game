@@ -1,16 +1,19 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class Card {
 //instance variables
 private int value;
- name;
+private String name;
 //constructor for card class
-public Card(int value ,String name)
+public Card(int value, String name)
 {
 	this.value = value;
 	this.name = name;
 }
 //getters and setters for card value
 public void setValue(int value)
-{
+{	
 	this.value = value;
 }
 public int getValue()
@@ -20,17 +23,19 @@ public int getValue()
 //getters and setters for card name
 public void setName(String name)
 {
+	
 	this.name = name;
 }
-public String getName(String name)
+public String getName()
 {
 	return name;
 }
-//describe method explaining information on card
-public String describe(int value , String name)
+public void describe()
 {
-	return value + "of" + name;
+System.out.println(value + " of " + name); 
 }
 }
+
+
 
 
