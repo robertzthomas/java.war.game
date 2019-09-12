@@ -1,6 +1,3 @@
-import java.util.Arrays;
-import java.util.List;
-
 public class Card {
 //instance variables
 private int value;
